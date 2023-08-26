@@ -7,7 +7,7 @@ Reg no: 212222100014
 
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
-## Equipments Required:
+### Equipments Required:
 
 Hardware – PCs, Cyclone II , USB flasher
 
@@ -86,7 +86,7 @@ xor (yxor, a, b);
 module Experiment1 (a, b, yand, ynot, yor, yxor, ynand, ynor, yxnor);
 output yand, yor, ynot, yxor, ynand, ynor, yxnor;
 not (ynot, a);
-nand (ynand, a,b); 8
+nand (ynand, a,b); 
 nor (ynor, a, b);
 xnor (yxnor, a,b);
 endmodule
