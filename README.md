@@ -79,12 +79,12 @@ Check all the gates following the same procedure.
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 
 ```
+module Experiment1 (a, b, yand, ynot, yor, yxor, ynand, ynor, yxnor);
 input a,b;
+output yand, yor, ynot, yxor, ynand, ynor, yxnor;
 and (yand, a, b);
 or (yor, a, b);
 xor (yxor, a, b);
-module Experiment1 (a, b, yand, ynot, yor, yxor, ynand, ynor, yxnor);
-output yand, yor, ynot, yxor, ynand, ynor, yxnor;
 not (ynot, a);
 nand (ynand, a,b); 
 nor (ynor, a, b);
